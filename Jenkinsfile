@@ -4,7 +4,7 @@ pipeline {
     environment {
         EC2_USER = 'ubuntu' 
         EC2_HOST = 'ec2-13-203-75-85.ap-south-1.compute.amazonaws.com'
-        PEM_FILE = 'C:\Users\I\Downloads/mykey1.pem' // path to your private key on Jenkins
+        PEM_FILE = '/home/ubuntu/mykey1.pem' // path to your private key on Jenkins
         APP_DIR = '/home/ubuntu/myapp' // where to deploy the app
     }
 
