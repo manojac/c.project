@@ -17,7 +17,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh './build.sh' // or any build commands, e.g., `npm install`, `mvn package`
+                sh 'make' // or any build commands, e.g., `npm install`, `mvn package`
             }
         }
 
